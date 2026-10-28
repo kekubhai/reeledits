@@ -1,0 +1,26 @@
+{
+  "name": "vlog",
+  "type": "vlog",
+  "description": "Cinematic vlog/montage: natural audio, crossfades, warm grade, minimal titles. FFmpeg only.",
+  "inputDirs": [
+    "footage",
+    "audio"
+  ],
+  "files": [
+    "edit.json",
+    "NOTES.md"
+  ],
+  "project": {
+    "output": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "loudness": -14,
+      "subtitles": []
+    },
+    "production": {
+      "method": "ffmpeg-edit",
+      "edit": "edit.json"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ffmpeg-edit",
+  "description": "FFmpeg-only editing: cut list -> video with natural audio, crossfades, grade, titles, captions",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

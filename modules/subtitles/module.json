@@ -1,0 +1,9 @@
+{
+  "name": "subtitles",
+  "description": "SRT/VTT writing, parsing, line wrapping and validation",
+  "requires": [
+    "node"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

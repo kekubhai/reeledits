@@ -1,0 +1,31 @@
+{
+  "name": "product-launch",
+  "type": "product-launch",
+  "description": "Launch film: hook, reveal, features in device frames, CTA. Remotion engine.",
+  "inputDirs": [
+    "footage",
+    "screen-recordings",
+    "images",
+    "audio"
+  ],
+  "files": [
+    "timeline.json",
+    "NOTES.md"
+  ],
+  "project": {
+    "output": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "loudness": -14,
+      "subtitles": [
+        "srt",
+        "vtt"
+      ]
+    },
+    "production": {
+      "method": "timeline",
+      "timeline": "timeline.json"
+    }
+  }
+}

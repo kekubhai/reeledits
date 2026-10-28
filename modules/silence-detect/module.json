@@ -1,0 +1,9 @@
+{
+  "name": "silence-detect",
+  "description": "Speech pauses with an adaptive noise-floor threshold",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

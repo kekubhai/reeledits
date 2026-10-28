@@ -1,0 +1,25 @@
+{
+  "grade": "warm",
+  "fadeIn": 0.6,
+  "fadeOut": 1,
+  "clips": [],
+  "titles": [],
+  "audio": {
+    "natural": true,
+    "naturalRole": "ambient",
+    "music": {
+      "synth": {
+        "bpm": 84,
+        "progression": "warm",
+        "sections": [
+          {
+            "from": 0,
+            "to": 999,
+            "level": 1
+          }
+        ]
+      },
+      "gain": -8
+    }
+  }
+}

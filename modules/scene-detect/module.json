@@ -1,0 +1,9 @@
+{
+  "name": "scene-detect",
+  "description": "Visual cut / content-change detection",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

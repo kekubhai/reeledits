@@ -1,0 +1,9 @@
+{
+  "name": "tts-windows",
+  "description": "Narration from text with the Windows speech synthesiser (offline)",
+  "requires": [
+    "windows-tts"
+  ],
+  "optional": true,
+  "entry": "index.mjs"
+}

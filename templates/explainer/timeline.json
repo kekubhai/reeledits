@@ -1,0 +1,30 @@
+{
+  "theme": {
+    "base": "paper"
+  },
+  "narration": {
+    "voice": "Microsoft Zira Desktop",
+    "lines": [
+      "Replace with your narration, one sentence per line."
+    ]
+  },
+  "media": {},
+  "scenes": [
+    {
+      "id": "intro",
+      "type": "title",
+      "untilCue": 0,
+      "lines": [
+        "Topic"
+      ],
+      "glow": false
+    }
+  ],
+  "overlays": {
+    "captions": "narration",
+    "captionStyle": {
+      "variant": "highlight"
+    }
+  },
+  "audio": {}
+}

@@ -1,0 +1,30 @@
+{
+  "name": "explainer",
+  "type": "explainer",
+  "description": "Educational explainer: narration, diagrams, bullets, subtitles. Calm, readable.",
+  "inputDirs": [
+    "audio",
+    "images",
+    "footage"
+  ],
+  "files": [
+    "timeline.json",
+    "NOTES.md"
+  ],
+  "project": {
+    "output": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "loudness": -14,
+      "subtitles": [
+        "srt",
+        "vtt"
+      ]
+    },
+    "production": {
+      "method": "timeline",
+      "timeline": "timeline.json"
+    }
+  }
+}

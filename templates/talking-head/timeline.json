@@ -1,0 +1,26 @@
+{
+  "theme": {
+    "base": "midnight"
+  },
+  "media": {},
+  "scenes": [
+    {
+      "id": "open",
+      "type": "title",
+      "duration": 2.5,
+      "lines": [
+        "Title"
+      ]
+    }
+  ],
+  "overlays": {
+    "captions": [],
+    "captionStyle": {
+      "variant": "box"
+    },
+    "lowerThirds": []
+  },
+  "audio": {
+    "tracks": []
+  }
+}

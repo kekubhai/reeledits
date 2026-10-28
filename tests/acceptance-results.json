@@ -1,0 +1,151 @@
+{
+  "ranAt": "2026-10-27T12:15:38.749Z",
+  "quality": "final",
+  "results": [
+    {
+      "name": "example-saas-demo",
+      "workflow": "Product demo from a screen recording + logo (Remotion timeline engine)",
+      "template": "saas-demo",
+      "method": "timeline",
+      "intake": {
+        "ok": true,
+        "assets": [
+          "image:images-logo",
+          "video:screen-recordings-app-session"
+        ]
+      },
+      "plan": {
+        "ok": true,
+        "file": "projects/videos/example-saas-demo/plan.md"
+      },
+      "render": {
+        "ok": true,
+        "seconds": 62.671
+      },
+      "validation": {
+        "ok": true,
+        "checks": [
+          "PASS output exists: 6.2 MB",
+          "PASS video stream: h264 1920x1080 30fps yuv420p",
+          "PASS resolution: 1920x1080 (expected 1920x1080)",
+          "PASS frame rate: 30 (expected 30)",
+          "PASS pixel format: yuv420p",
+          "PASS duration: 23.5s (expected 23.5s)",
+          "PASS audio stream: aac 48000Hz 2ch",
+          "PASS audio not silent: mean -15.9 dB, max -1.5 dB",
+          "PASS no clipping: max -1.5 dB",
+          "PASS loudness: -14 LUFS (target -14)",
+          "PASS audio resolves at end: last 0.3 s mean -51.2 dB",
+          "WARN black segments: 15.5-18.333333s",
+          "WARN frozen segments (>2s): 0.666667-2.8s",
+          "PASS subtitles example-saas-demo.srt: 2 cues, ends 12.60s",
+          "PASS subtitles example-saas-demo.vtt: 2 cues, ends 12.60s"
+        ],
+        "sheet": "projects/videos/example-saas-demo/renders/review/example-saas-demo-sheet.jpg"
+      },
+      "outputs": [
+        "projects/videos/example-saas-demo/output/example-saas-demo-preview.mp4",
+        "projects/videos/example-saas-demo/output/example-saas-demo-thumbnail.jpg",
+        "projects/videos/example-saas-demo/output/example-saas-demo.mp4",
+        "projects/videos/example-saas-demo/output/example-saas-demo.srt",
+        "projects/videos/example-saas-demo/output/example-saas-demo.vtt",
+        "projects/videos/example-saas-demo/output/validation.json"
+      ]
+    },
+    {
+      "name": "example-travel-vlog",
+      "workflow": "Vertical vlog from raw clips + photo with natural audio (FFmpeg-only edit)",
+      "template": "vlog",
+      "method": "ffmpeg-edit",
+      "intake": {
+        "ok": true,
+        "assets": [
+          "video:footage-clip-01-sunrise",
+          "video:footage-clip-02-streets",
+          "video:footage-clip-03-market",
+          "image:images-photo-rooftop"
+        ]
+      },
+      "plan": {
+        "ok": true,
+        "file": "projects/videos/example-travel-vlog/plan.md"
+      },
+      "render": {
+        "ok": true,
+        "seconds": 74.406
+      },
+      "validation": {
+        "ok": true,
+        "checks": [
+          "PASS output exists: 19.3 MB",
+          "PASS video stream: h264 1080x1920 30fps yuv420p",
+          "PASS resolution: 1080x1920 (expected 1080x1920)",
+          "PASS frame rate: 30 (expected 30)",
+          "PASS pixel format: yuv420p",
+          "PASS duration: 16.6s (expected 16.6s)",
+          "PASS audio stream: aac 48000Hz 2ch",
+          "PASS audio not silent: mean -15.9 dB, max -2.6 dB",
+          "PASS no clipping: max -2.6 dB",
+          "PASS loudness: -13.9 LUFS (target -14)",
+          "PASS audio resolves at end: last 0.3 s mean -54.3 dB",
+          "PASS black segments: none",
+          "PASS frozen segments (>2s): none"
+        ],
+        "sheet": "projects/videos/example-travel-vlog/renders/review/example-travel-vlog-sheet.jpg"
+      },
+      "outputs": [
+        "projects/videos/example-travel-vlog/output/example-travel-vlog-preview.mp4",
+        "projects/videos/example-travel-vlog/output/example-travel-vlog-thumbnail.jpg",
+        "projects/videos/example-travel-vlog/output/example-travel-vlog.mp4",
+        "projects/videos/example-travel-vlog/output/validation.json"
+      ]
+    },
+    {
+      "name": "example-ai-agents-explainer",
+      "workflow": "Educational explainer: TTS narration, animated diagram, subtitles (Remotion)",
+      "template": "explainer",
+      "method": "timeline",
+      "intake": {
+        "ok": true,
+        "assets": []
+      },
+      "plan": {
+        "ok": true,
+        "file": "projects/videos/example-ai-agents-explainer/plan.md"
+      },
+      "render": {
+        "ok": true,
+        "seconds": 48.747
+      },
+      "validation": {
+        "ok": true,
+        "checks": [
+          "PASS output exists: 1.4 MB",
+          "PASS video stream: h264 1920x1080 30fps yuv420p",
+          "PASS resolution: 1920x1080 (expected 1920x1080)",
+          "PASS frame rate: 30 (expected 30)",
+          "PASS pixel format: yuv420p",
+          "PASS duration: 25.968s (expected 25.968s)",
+          "PASS audio stream: aac 48000Hz 2ch",
+          "PASS audio not silent: mean -17.9 dB, max -1.5 dB",
+          "PASS no clipping: max -1.5 dB",
+          "PASS loudness: -14.1 LUFS (target -14)",
+          "PASS audio resolves at end: last 0.3 s mean -91 dB",
+          "PASS black segments: none",
+          "WARN frozen segments (>2s): 2.933333-6.2s, 18.1-21.43s",
+          "PASS subtitles example-ai-agents-explainer.srt: 5 cues, ends 22.37s",
+          "PASS subtitles example-ai-agents-explainer.vtt: 5 cues, ends 22.37s"
+        ],
+        "sheet": "projects/videos/example-ai-agents-explainer/renders/review/example-ai-agents-explainer-sheet.jpg"
+      },
+      "outputs": [
+        "projects/videos/example-ai-agents-explainer/output/example-ai-agents-explainer-preview.mp4",
+        "projects/videos/example-ai-agents-explainer/output/example-ai-agents-explainer-thumbnail.jpg",
+        "projects/videos/example-ai-agents-explainer/output/example-ai-agents-explainer.mp4",
+        "projects/videos/example-ai-agents-explainer/output/example-ai-agents-explainer.srt",
+        "projects/videos/example-ai-agents-explainer/output/example-ai-agents-explainer.vtt",
+        "projects/videos/example-ai-agents-explainer/output/validation.json"
+      ]
+    }
+  ]
+}

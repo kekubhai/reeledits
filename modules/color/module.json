@@ -1,0 +1,9 @@
+{
+  "name": "color",
+  "description": "Restrained colour presets (FFmpeg filter chains)",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

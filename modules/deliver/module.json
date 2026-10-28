@@ -1,0 +1,9 @@
+{
+  "name": "deliver",
+  "description": "Final encode/mux, preview and thumbnail",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

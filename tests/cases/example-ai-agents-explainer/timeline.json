@@ -1,0 +1,40 @@
+{
+  "theme": { "base": "paper" },
+  "narration": {
+    "voice": "Microsoft Zira Desktop",
+    "rate": 0,
+    "start": 0.6,
+    "gap": 0.5,
+    "lines": [
+      "What is an AI agent?",
+      "An agent is a language model that can take actions, not just answer questions.",
+      "It reads your goal, decides on a step, and calls a tool, like search or code.",
+      "Then it looks at the result, and loops until the goal is met.",
+      "Goal, plan, act, observe. That loop is the whole idea."
+    ]
+  },
+  "scenes": [
+    { "id": "intro", "type": "title", "untilCue": 0, "pad": 0.4, "kicker": "Explainer", "lines": ["What is an", "AI agent?"], "accentLine": 1, "glow": false },
+    { "id": "definition", "type": "title", "untilCue": 1, "lines": ["A model that", "takes actions."], "accentLine": 1, "glow": false, "size": 100, "transition": "fade" },
+    {
+      "id": "loop", "type": "diagram", "untilCue": 3, "title": "The agent loop", "transition": "fade",
+      "nodes": [
+        { "id": "goal", "label": "Goal", "sub": "from you", "x": 0.2, "y": 0.52, "at": 0.2 },
+        { "id": "agent", "label": "Agent", "sub": "decides", "x": 0.5, "y": 0.34, "at": 0.8 },
+        { "id": "tool", "label": "Tool", "sub": "search, code", "x": 0.8, "y": 0.52, "at": 2.4 },
+        { "id": "obs", "label": "Result", "sub": "observed", "x": 0.5, "y": 0.74, "at": 4.6 }
+      ],
+      "edges": [
+        { "from": "goal", "to": "agent", "at": 1.4 },
+        { "from": "agent", "to": "tool", "at": 3.0, "label": "act" },
+        { "from": "tool", "to": "obs", "at": 5.2 },
+        { "from": "obs", "to": "agent", "at": 6.0, "label": "loop" }
+      ],
+      "loop": { "edges": [1, 2, 3], "from": 7.2, "period": 1.1 }
+    },
+    { "id": "summary", "type": "bullets", "untilCue": 4, "heading": "The whole idea", "items": ["Goal", "Plan", "Act", "Observe"], "dimPast": true, "transition": "fade" },
+    { "id": "end", "type": "endcard", "duration": 3, "title": "AI agents", "sub": "Studio acceptance test · explainer" }
+  ],
+  "overlays": { "captions": "narration", "captionStyle": { "variant": "highlight" } },
+  "audio": {}
+}

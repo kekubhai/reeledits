@@ -1,0 +1,26 @@
+{
+  "theme": {
+    "base": "midnight"
+  },
+  "media": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "title",
+      "duration": 2,
+      "lines": [
+        "Hook in",
+        "two seconds."
+      ],
+      "accentLine": 1
+    }
+  ],
+  "overlays": {
+    "captions": [],
+    "captionStyle": {
+      "variant": "highlight",
+      "size": 58
+    }
+  },
+  "audio": {}
+}

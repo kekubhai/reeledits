@@ -1,0 +1,70 @@
+{
+  "theme": {
+    "base": "midnight",
+    "accent": "#FED600"
+  },
+  "media": {},
+  "scenes": [
+    {
+      "id": "hook",
+      "type": "title",
+      "duration": 3,
+      "lines": [
+        "A bold opening line."
+      ],
+      "transition": "fade"
+    },
+    {
+      "id": "reveal",
+      "type": "endcard",
+      "duration": 3,
+      "title": "Product",
+      "sub": "One-line promise",
+      "transition": "wipe",
+      "fadeToBlack": false
+    },
+    {
+      "id": "cta",
+      "type": "endcard",
+      "duration": 4,
+      "title": "Product",
+      "sub": "Closing line",
+      "cta": "Call to action",
+      "transition": "wipe"
+    }
+  ],
+  "overlays": {
+    "captions": [],
+    "captionStyle": {
+      "variant": "box"
+    }
+  },
+  "audio": {
+    "music": {
+      "synth": {
+        "bpm": 100,
+        "progression": "bright",
+        "sections": [
+          {
+            "from": 0,
+            "to": 3,
+            "level": 0.8
+          },
+          {
+            "from": 3,
+            "to": 999,
+            "level": 1,
+            "groove": true,
+            "arp": true
+          }
+        ]
+      }
+    },
+    "sfx": [
+      {
+        "at": 3,
+        "kind": "impact"
+      }
+    ]
+  }
+}

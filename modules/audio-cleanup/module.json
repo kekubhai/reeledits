@@ -1,0 +1,9 @@
+{
+  "name": "audio-cleanup",
+  "description": "Speech cleanup chain (rumble, denoise, EQ, compression)",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

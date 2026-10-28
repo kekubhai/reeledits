@@ -1,0 +1,22 @@
+{
+  "name": "reeledits-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reusable, agent-driven video production studio (FFmpeg + Remotion).",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "studio": "studio.mjs" },
+  "scripts": {
+    "studio": "node studio.mjs",
+    "doctor": "node studio.mjs doctor",
+    "test": "node tests/run-acceptance.mjs"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.3.0",
+    "@fontsource/space-grotesk": "5.3.0",
+    "@remotion/cli": "4.0.539",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.539"
+  }
+}

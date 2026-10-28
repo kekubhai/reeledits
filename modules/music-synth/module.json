@@ -1,0 +1,9 @@
+{
+  "name": "music-synth",
+  "description": "Original music bed + SFX synthesis (no samples, no licensing risk)",
+  "requires": [
+    "node"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

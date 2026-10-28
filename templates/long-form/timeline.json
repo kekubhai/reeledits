@@ -1,0 +1,23 @@
+{
+  "theme": {
+    "base": "midnight"
+  },
+  "media": {},
+  "scenes": [
+    {
+      "id": "chapter-1",
+      "type": "title",
+      "duration": 2.5,
+      "kicker": "Chapter 1",
+      "lines": [
+        "Chapter title"
+      ]
+    }
+  ],
+  "overlays": {
+    "captions": [],
+    "lowerThirds": [],
+    "progress": false
+  },
+  "audio": {}
+}

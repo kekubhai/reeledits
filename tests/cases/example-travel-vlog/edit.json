@@ -1,0 +1,21 @@
+{
+  "grade": "warm",
+  "fadeIn": 0.6,
+  "fadeOut": 1.2,
+  "clips": [
+    { "src": "input/footage/clip-01-sunrise.mp4", "in": 0.5, "out": 5.5, "transition": { "type": "fade", "duration": 0.8 } },
+    { "src": "input/footage/clip-02-streets.mp4", "in": 0, "out": 4.5 },
+    { "src": "input/footage/clip-03-market.mov", "in": 1, "out": 5.5, "transition": { "type": "fadeblack", "duration": 0.6 } },
+    { "src": "input/images/photo-rooftop.jpg", "out": 4, "zoom": 1.12 }
+  ],
+  "titles": [
+    { "text": "Day One", "from": 0.8, "to": 3.6, "style": "center" },
+    { "text": "Old town · 6:40 am", "from": 5.0, "to": 8.5, "style": "lower" },
+    { "text": "Rooftop", "from": 13.0, "to": 16.0, "style": "chapter" }
+  ],
+  "audio": {
+    "natural": true,
+    "naturalRole": "ambient",
+    "music": { "synth": { "bpm": 84, "progression": "warm" }, "gain": -10 }
+  }
+}

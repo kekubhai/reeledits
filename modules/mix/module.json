@@ -1,0 +1,9 @@
+{
+  "name": "mix",
+  "description": "Voice/ambient/music/sfx mix with music ducking + two-pass loudness mastering",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

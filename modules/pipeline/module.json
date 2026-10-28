@@ -1,0 +1,10 @@
+{
+  "name": "pipeline",
+  "description": "Stage orchestration for timeline / ffmpeg-edit / custom methods",
+  "requires": [
+    "ffmpeg",
+    "node"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

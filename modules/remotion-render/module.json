@@ -1,0 +1,9 @@
+{
+  "name": "remotion-render",
+  "description": "Render a Remotion composition (engine or custom) to silent H.264",
+  "requires": [
+    "remotion"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

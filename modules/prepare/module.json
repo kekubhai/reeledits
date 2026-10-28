@@ -1,0 +1,9 @@
+{
+  "name": "prepare",
+  "description": "Trim/CFR/crop/grade footage into JPEG frame sequences for the Remotion engine",
+  "requires": [
+    "ffmpeg"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}

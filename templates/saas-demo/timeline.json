@@ -1,0 +1,49 @@
+{
+  "theme": {
+    "base": "midnight",
+    "accent": "#4F7CFF",
+    "accentText": "#FFFFFF"
+  },
+  "media": {},
+  "scenes": [
+    {
+      "id": "intro",
+      "type": "title",
+      "duration": 3,
+      "kicker": "Demo",
+      "lines": [
+        "Product name"
+      ],
+      "sub": "What it does in one line"
+    },
+    {
+      "id": "end",
+      "type": "endcard",
+      "duration": 4,
+      "title": "Product",
+      "cta": "Try it"
+    }
+  ],
+  "overlays": {
+    "captions": [],
+    "captionStyle": {
+      "variant": "box"
+    }
+  },
+  "audio": {
+    "music": {
+      "synth": {
+        "bpm": 96,
+        "progression": "calm",
+        "sections": [
+          {
+            "from": 0,
+            "to": 999,
+            "level": 1,
+            "bass": true
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "short-form",
+  "type": "short-form",
+  "description": "Vertical 9:16 Reel/Short: fast hook, big captions, tight pacing.",
+  "inputDirs": [
+    "footage",
+    "screen-recordings",
+    "audio",
+    "images"
+  ],
+  "files": [
+    "timeline.json",
+    "NOTES.md"
+  ],
+  "project": {
+    "output": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "loudness": -14,
+      "subtitles": [
+        "srt",
+        "vtt"
+      ]
+    },
+    "production": {
+      "method": "timeline",
+      "timeline": "timeline.json"
+    }
+  }
+}

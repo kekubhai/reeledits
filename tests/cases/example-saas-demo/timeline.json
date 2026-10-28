@@ -1,0 +1,31 @@
+{
+  "theme": { "base": "midnight", "accent": "#4F7CFF", "accentText": "#FFFFFF" },
+  "media": {
+    "session": { "src": "input/screen-recordings/app-session.mp4", "in": 0, "out": 12, "width": 1440, "grade": "none" },
+    "logo": { "src": "input/images/logo.png" }
+  },
+  "scenes": [
+    { "id": "intro", "type": "title", "duration": 3, "kicker": "Product demo", "lines": ["Meet DX", "Dashboard."], "accentLine": 1, "sub": "A synthetic test product", "transition": "fade" },
+    {
+      "id": "overview", "type": "device", "frame": "browser", "url": "app.example.test/dashboard", "media": "session", "from": 0, "duration": 5,
+      "kicker": "Overview", "index": "01", "title": ["Everything", "at a glance."], "body": "Test footage stands in for a real screen recording.",
+      "highlights": [{ "x": 0.819, "y": 0.0156, "w": 0.153, "h": 0.0467, "label": "Primary action", "from": 1.2, "to": 4.6 }],
+      "transition": "rise"
+    },
+    { "id": "zoom", "type": "device", "frame": "browser", "url": "app.example.test/dashboard", "media": "session", "from": 5, "duration": 5, "zoom": { "at": 0.8, "until": 4.0, "scale": 1.8, "x": 0.6, "y": 0.5 } },
+    { "id": "logo", "type": "image", "media": "logo", "fit": "contain", "duration": 2.5, "transition": "fade" },
+    { "id": "why", "type": "bullets", "duration": 4.5, "kicker": "Test content", "heading": "Built for busy teams", "items": ["Live metrics, no refresh", "One-click sharing", "Works on any screen"] },
+    { "id": "end", "type": "endcard", "duration": 3.5, "title": "DX Dashboard", "sub": "Studio acceptance test", "cta": "example.test", "transition": "wipe" }
+  ],
+  "overlays": {
+    "captions": [
+      { "from": 3.3, "to": 7.6, "text": "Here is the dashboard overview." },
+      { "from": 8.2, "to": 12.6, "text": "Zoom in on the area that matters." }
+    ],
+    "captionStyle": { "variant": "box" }
+  },
+  "audio": {
+    "music": { "synth": { "bpm": 96, "progression": "calm", "sections": [{ "from": 0, "to": 3, "level": 0.7 }, { "from": 3, "to": 999, "level": 1, "bass": true, "arp": true }], "resolveAt": 20 } },
+    "sfx": [{ "at": 3, "kind": "whoosh" }, { "at": 4.2, "kind": "tick" }, { "at": 8.8, "kind": "pop" }, { "at": 20, "kind": "impact", "level": 0.7 }]
+  }
+}

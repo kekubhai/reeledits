@@ -1,0 +1,10 @@
+{
+  "name": "transcribe-whisper",
+  "description": "Speech-to-text via FFmpeg whisper filter (optional)",
+  "requires": [
+    "ffmpeg-whisper",
+    "whisper-model"
+  ],
+  "optional": true,
+  "entry": "index.mjs"
+}

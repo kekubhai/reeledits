@@ -1,0 +1,30 @@
+{
+  "name": "talking-head",
+  "type": "talking-head",
+  "description": "Speaker-led video: graded footage, captions, lower third, light B-roll.",
+  "inputDirs": [
+    "footage",
+    "audio",
+    "images"
+  ],
+  "files": [
+    "timeline.json",
+    "NOTES.md"
+  ],
+  "project": {
+    "output": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "loudness": -14,
+      "subtitles": [
+        "srt",
+        "vtt"
+      ]
+    },
+    "production": {
+      "method": "timeline",
+      "timeline": "timeline.json"
+    }
+  }
+}

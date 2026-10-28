@@ -1,0 +1,20 @@
+{
+  "theme": {
+    "base": "midnight"
+  },
+  "media": {},
+  "scenes": [
+    {
+      "type": "title",
+      "duration": 3,
+      "lines": [
+        "Untitled"
+      ],
+      "kicker": "Draft"
+    }
+  ],
+  "overlays": {},
+  "audio": {
+    "none": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "intake",
+  "description": "Scan input/ + assets/: probe, hash, previews, compatibility notes -> manifest.json",
+  "requires": [
+    "ffmpeg",
+    "ffprobe"
+  ],
+  "optional": false,
+  "entry": "index.mjs"
+}
